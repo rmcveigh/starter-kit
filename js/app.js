@@ -1,11 +1,5 @@
-App = Ember.Application.create();
+// Create our Application
+MovieTracker = Ember.Application.create();
 
-App.Router.map(function() {
-  // put your routes here
-});
-
-App.IndexRoute = Ember.Route.extend({
-  model: function() {
-    return ['red', 'yellow', 'blue'];
-  }
-});
+// Start our Ember Application
+MovieTracker.initialize();
